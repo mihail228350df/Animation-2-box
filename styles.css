@@ -1,0 +1,42 @@
+
+
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(151, 66, 66);
+     
+    position: relative;
+    top: 0;
+    left: 0;
+
+    animation: render 4s ease-in-out infinite;
+} 
+
+
+@keyframes render {
+    0%{
+        top: 0;
+        left: 0;
+        background-color: rgba(151, 66, 66);
+    }
+
+    25%{
+        top: 0;
+        left: 300px;
+        background-color: rgba(66, 103, 151);
+        border-radius: 50%;
+    }
+
+    50%{
+        top: 500;
+        left: 300;
+        background-color: rgba(144, 66, 151);
+        border-radius: 0;
+    }
+    75%{
+        top: 500;
+        left: 0;
+        background-color: rgba(66, 151, 91);
+        border-radius: 50%;
+    }
+}

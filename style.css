@@ -28,15 +28,16 @@
     }
 
     50%{
-        top: 500;
-        left: 300;
+        top: 500px;
+        left: 300px;
         background-color: rgba(144, 66, 151);
         border-radius: 0;
     }
     75%{
-        top: 500;
+        top: 500px;
         left: 0;
         background-color: rgba(66, 151, 91);
         border-radius: 50%;
     }
 }
+  
